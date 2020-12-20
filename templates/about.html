@@ -1,0 +1,664 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139388883-1"></script>
+		<script type="text/javascript">
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'UA-139388883-1');
+		</script>
+
+  <meta charset="utf-8">
+  <title>SageoConsult | IT Services Company</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <link rel="shortcut icon" href="{%static 'img/ico/favicon.ico' %}">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% static 'img/ico/apple-touch-icon-144-precomposed.png' %}">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% static 'img/ico/apple-touch-icon-114-precomposed.png' %}">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% static 'img/ico/apple-touch-icon-72-precomposed.png' %}">
+  <link rel="apple-touch-icon-precomposed" href="{% static 'img/ico/apple-touch-icon-57-precomposed.png' %}">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">  
+    
+    
+  <!-- Bootstrap CSS File -->
+  <link href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- ../libraries CSS Files -->
+  <link href="{% static 'lib/nivo-slider/css/nivo-slider.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/owlcarousel/owl.carousel.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/owlcarousel/owl.transitions.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/venobox/venobox.css' %}" rel="stylesheet">
+
+  <!-- Nivo Slider Theme -->
+  <link href="{% static 'css/nivo-slider-theme.css' %}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+  
+  <!-- CSS Unify -->
+  <link rel="stylesheet" href="{% static 'css/unify-core.css' %}">
+  <link rel="stylesheet" href="{% static 'css/unify-components.css' %}">
+  <link rel="stylesheet" href="{% static 'css/unify-globals.css' %}">
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <div id="preloader"></div>
+
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                <!-- Brand -->
+                <a href="{% static 'index' %}">
+                <img src="{% static 'img/logo.png' %}" alt="Sageo Logo" title="SageoConsult"> 
+                </a>
+                <a class="navbar-brand page-scroll sticky-logo" href="/">
+                  <h1><span>Sageo</span> Consult</h1>
+				</a>
+              </div>
+              
+              
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a class="page-scroll" href="/">Home</a>
+                  </li>
+                  <li class="active">
+                    <a class="page-scroll" href="/about">About Us</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="/careers">Careers</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="/blog">Blog</a>
+                  </li>
+                  <li class="dropdown"><a href="/services" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+                    <ul class="dropdown-menu " role="menu">
+                      <li><a href="/services?sn=dataserv#serviceArea" >Data Services</a></li>
+                      <li><a href="/services?sn=webdev#serviceArea">Web Development</a></li>
+                      <li><a href="services?sn=netinfra#serviceArea">Networking & Infrastructure</a></li>
+                      <li><a href="/services?sn=bpmrpm#serviceArea">BPM & RPM</a></li>
+                    </ul> 
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="/industry">Industries</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="/contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
+  
+  
+
+<!-- About Section Begins -->  
+
+<div id="aboutSection">
+	<div class="aboutText">
+	<!-- Text Starts -->
+		<div >
+		 <div class="section-headline text-left">
+            <h2>About Sageo</h2>
+          </div>
+          <div class="well-middle">
+            <div class="single-well">
+
+             
+			<h4 class="sec-head">Making Businesses Smart</h4>
+              <p>
+                Sageoconsult provides IT services to small businesses. Our vision is to make businesses smarter through modern technology. Our goal is to improve business processes
+				through modern technology and automation. 
+
+              </p>
+              <ul class="fs-13">
+                <li>
+                  <i class="fa fa-check"></i> Software Development
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> IT outsourcing
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Consulting Services
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>		
+ <!-- Text Ends -->
+	</div>
+</div>
+
+<!-- About Ends -->
+
+
+
+  <!-- Start About area -->
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          
+        </div>
+      </div>
+      
+ <!-- About Presentation -->
+ <div class="container mb-50">
+ <div class="row">
+   
+   <div id="about-presentation">
+      <div class="col-xs-12 center-block text-center">
+	  <div class="section-headline text-center">
+            <h2>Who We Are</h2>
+          </div>
+ 	     <h5>
+ 	        We use industry proven methods to Discover, Model, Analyze, and continuously improve your business processes. We help you save money through Automating your business process wherever possible.
+ 	    </h5>
+      </div>
+    </div>
+ </div>
+ </div> 
+ <!-- Presentation Ends -->     
+      
+      
+ <!-- Mission, Vision, Strategy -->     
+      <div class="row m-t-20 div-misvisstr">
+        <!-- First Div -->
+    
+        <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp">
+        <i class="fa fa-bullseye about-icon"></i>
+          <div class="well-middle">
+            <div class="single-well">
+                <h4 class="sec-head">Mission</h4>
+              <p>
+                To Increase the Efficiency and Productivity of Small and Medium sized Businesses through well modeled and engineered business processes. 
+              </p>
+            </div>
+          </div>
+        </div>
+        
+    <!-- Second Div -->
+         <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown">
+         <i class="fa fa-eye about-icon"></i>
+          <div class="well-middle">
+            <div class="single-well">
+                <h4 class="sec-head">Vision</h4>
+              <p>
+                Our vision is to make businesses even smarter through the use of modern and cutting edge technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+	<!-- Third Div -->
+      
+    <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp">
+        <i class="fa fa-magic about-icon"></i>
+          <div class="well-middle">
+            <div class="single-well">
+                <h4 class="sec-head">Strategy</h4>
+              <p>
+                We hold our customers and clients in high esteem. We strive for excellence and work hard to provide the eperience you need. Your success is our mission. 
+              </p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  
+  <!-- End About area -->
+  
+<hr class="u-divider-linear-gradient u-divider-linear-gradient--gray-light-v2 g-my-50">
+
+<!-- Team Section Begins -->
+ <!-- Start team Area -->
+  <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Our Special Team</h2>
+          </div>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+ 
+  <!-- End Team Area -->
+<!-- Team Section Ends -->
+
+
+
+ <!-- Team Blocks -->
+    <section id="specialTeam" class="container g-pt-100 g-pb-70">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+          <!-- Team Block -->
+          <div class="u-info-v6-1">
+            <!-- Figure -->
+            <figure class="u-block-hover">
+              <!-- Figure Image -->
+              <img class="w-100" src="{% static 'img/team/seth.jpg' %}" alt="Image Description">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-block-hover__additional--fade g-bg-bluegray-opacity-0_5 g-pa-30">
+                <div class="u-block-hover__additional--fade u-block-hover__additional--fade-down g-flex-middle">
+                  <!-- Figure Social Icons -->
+                  <ul class="list-inline text-center g-flex-middle-item">
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-google-plus"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End Figure Social Icons -->
+                </div>
+              </figcaption>
+              <!-- End Figure Caption -->
+            </figure>
+            <!-- End Figure -->
+
+            <!-- Figure Info -->
+            <div class="g-bg-white g-pt-25">
+              <div class="g-mb-15">
+                <h2 class="h5 g-color-black g-font-weight-600">Seth Yeboah</h2>
+                <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Director</em>
+              </div>
+
+              <!--<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+            </div>
+            <!-- End Figure Info-->
+          </div>
+          <!-- End Team Block -->
+        </div>
+
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+          <!-- Team Block -->
+          <div class="u-info-v6-1">
+            <!-- Figure -->
+            <figure class="u-block-hover">
+              <!-- Figure Image -->
+              <img class="w-100" src="{% static 'img/team/charles.jpg' %}" alt="Image Description">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-block-hover__additional--fade g-bg-bluegray-opacity-0_5 g-pa-30">
+                <div class="u-block-hover__additional--fade u-block-hover__additional--fade-down g-flex-middle">
+                  <!-- Figure Social Icons -->
+                  <ul class="list-inline text-center g-flex-middle-item">
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-google-plus"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End Figure Social Icons -->
+                </div>
+              </figcaption>
+              <!-- End Figure Caption -->
+            </figure>
+            <!-- End Figure -->
+
+            <!-- Figure Info -->
+            <div class="g-bg-white g-pt-25">
+              <div class="g-mb-15">
+                <h2 class="h5 g-color-black g-font-weight-600">Charles Crabbe</h2>
+                <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Manager, Applications Development</em>
+              </div>
+
+              <!--<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+            </div>
+            <!-- End Figure Info-->
+          </div>
+          <!-- End Team Block -->
+        </div>
+
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+          <!-- Team Block -->
+          <div class="u-info-v6-1">
+            <!-- Figure -->
+            <figure class="u-block-hover">
+              <!-- Figure Image -->
+              <img class="w-100" src="{% static 'img/team/gifty.jpg' %}" alt="Image Description">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-block-hover__additional--fade g-bg-bluegray-opacity-0_5 g-pa-30">
+                <div class="u-block-hover__additional--fade u-block-hover__additional--fade-down g-flex-middle">
+                  <!-- Figure Social Icons -->
+                  <ul class="list-inline text-center g-flex-middle-item">
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-google-plus"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End Figure Social Icons -->
+                </div>
+              </figcaption>
+              <!-- End Figure Caption -->
+            </figure>
+            <!-- End Figure -->
+
+            <!-- Figure Info -->
+            <div class="g-bg-white g-pt-25">
+              <div class="g-mb-15">
+                <h2 class="h5 g-color-black g-font-weight-600">Gifty Arthur</h2>
+                <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Manager, UI/UX/Creative Design</em>
+              </div>
+
+              <!--<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+            </div>
+            <!-- End Figure Info-->
+          </div>
+          <!-- End Team Block -->
+        </div>
+
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+          <!-- Team Block -->
+          <div class="u-info-v6-1">
+            <!-- Figure -->
+            <figure class="u-block-hover">
+              <!-- Figure Image -->
+              <img class="w-100" src="{% static 'img/team/eman.jpg' %}" alt="Image Description">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-block-hover__additional--fade g-bg-bluegray-opacity-0_5 g-pa-30">
+                <div class="u-block-hover__additional--fade u-block-hover__additional--fade-down g-flex-middle">
+                  <!-- Figure Social Icons -->
+                  <ul class="list-inline text-center g-flex-middle-item">
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item align-middle g-mx-3">
+                      <a class="u-icon-v2 g-width-35 g-height-35 g-color-white g-color-black--hover g-brd-white g-bg-white--hover g-font-size-default rounded-circle" href="#">
+                        <i class="fa fa-google-plus"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End Figure Social Icons -->
+                </div>
+              </figcaption>
+              <!-- End Figure Caption -->
+            </figure>
+            <!-- End Figure -->
+
+            <!-- Figure Info -->
+            <div class="g-bg-white g-pt-25">
+              <div class="g-mb-15">
+                <h2 class="h5 g-color-black g-font-weight-600">Emmanuel Owusu-Boadi Jr.</h2>
+                <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Manager, Network and Infrastructure</em>
+              </div>
+              <!--<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+            </div>
+            <!-- End Figure Info-->
+          </div>
+          <!-- End Team Block -->
+        </div>
+      </div>
+    </section>
+    <!-- End Team Blocks -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header subscribeBorderBtm">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">We appreciate your business....</h4>
+      </div>
+      <div class="modal-body">
+        <p class="fs-14 successs">Thanks for contacting Sageo Consult. Please check your email for updates.</p> 
+        <p class="fs-14 fail">Please enter a valid email address.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--Modal End --> 
+  
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 footer-box wow">
+                <h4>About Us</h4>
+                <div class="footer-box-text">
+                    <p>
+                    	Sageo Consult is an IT services company that offers business and technical expertise to enable organizations in the creation, management and optimization of information to adapt to information technology revolution.
+                    </p>
+                    <p><a href="/about">Read more...</a></p>
+                </div>
+            </div>
+            
+            <div class="col-sm-2 footer-box wow">
+                <h4>Services</h4>
+                <div class="footer-box-text footer-box-text-contact">
+					<p><a href="/services?sn=dataserv#serviceArea">Data Migration</a> </p>
+					<p><a href="/services?sn=dataserv#serviceArea">Data Integration</a></p>
+					<p><a href="/services?sn=webdev#serviceArea">Website Development</a></p>
+					<p><a href="/services?sn=webdev#serviceArea">Web Application</a></p>
+					<p><a href="/services?sn=dataserv#serviceArea">Big Data &amp; Analytics</a></p>
+                </div>
+            </div>
+            <div class="col-sm-2 footer-box wow">
+				<h4> <br> </h4>
+                <div class="footer-box-text footer-box-text-contact">
+					<p><a href="/services?sn=netinfra#serviceArea">Security</a></p>
+					<p><a href="/services?sn=netinfra#serviceArea">Firewall Auditing</a></p>
+					<p><a href="/services?sn=bpmrpm#serviceArea">BPM &amp; RPA</a></p>
+					<p><a href="/services?sn=netinfra#serviceArea">IT Infrastructure Assessment</a></p>
+                </div>
+            </div>
+            <div class="col-sm-2 footer-box wow ">
+                <h4>Careers</h4>
+                <div class="footer-box-text footer-box-text-subscribe">
+                	<p>Enter your email to receive Job notifications:</p>
+                	<form role="form" action="/about" method="post">
+                    	<div class="form-group">
+                    		<label class="sr-only" for="subscribe-email">Email address</label>
+                        	<input type="text" name="email" placeholder="Email..." class="subscribe-email form-control" id="subscribe-email">
+                        </div>
+                        <button type="button" class="btn">Subscribe</button>
+                    </form>
+                    <p class="success-message"></p>
+                    <p class="error-message"></p>
+                </div>
+            </div>
+            <div class="col-sm-3 footer-box wow ">
+                <h4>Contact Us</h4>
+                <div class="footer-box-text footer-box-text-contact">
+                    <p><i class="fa fa-map-marker"></i> P.O Box 307321, Columbus, OH 43230</p>
+                    <p><i class="fa fa-phone"></i> Phone: +1 614 434 6691</p>
+                    <p><i class="fa fa-user"></i> Skype: sageoconsult</p>
+                    <p><i class="fa fa-envelope"></i> Email: <a href="">info@sageoconsult.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-sm-12 wow">
+        		<div class="footer-border"></div>
+        	</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7 footer-copyright wow">
+                <p>Copyright &copy 2019 Sageo Consult - All rights reserved</p>
+            </div>
+            <div class="col-sm-5 footer-social wow">
+                <a href=""><i class="fa fa-facebook"></i></a>  
+                <a href=""><i class="fa fa-google"></i></a> 
+                <a href=""><i class="fa fa-twitter"></i></a> <span> | </span>
+                       
+                
+                <a href="#"> Terms of Use </a><span> | </span> 
+                <a href="/privacy"> Privacy Policy </a> <span> | </span>
+                <a href="#"> Disclaimer </a> <span> | </span>
+                <a href="contact"> Contact Us </a> 
+                
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+<script type="text/javascript">
+	$(function(){
+		$("#myModal").on("hidden.bs.modal", function () {
+			$(".subscribe-email").val("");
+		});
+		
+		$(".btn").click(function(){
+			$(".modal-body p").removeClass("hidden");
+			if($(".subscribe-email").val().length > 0)
+			{
+				$(".fail").addClass("hidden");
+				$("#myModal").modal('show');
+			}else {
+				$(".successs").addClass("hidden");
+				$("#myModal").modal('show');
+			}
+		
+		});
+
+	});
+
+</script>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript ../libraries -->
+  <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'lib/jquery/jquery-1.11.1.min.js' %}"></script>
+  <script src="{% static 'lib/jquery/jquery.backstretch.min.js' %}"></script>
+  <script src="{% static 'lib/jquery/jquery.magnific-popup.min.js' %}"></script>  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'lib/venobox/venobox.min.js' %}"></script>
+  <script src="{% static 'lib/knob/jquery.knob.js' %}"></script>
+  <script src="{% static 'lib/wow/wow.min.js' %}"></script>
+  <script src="{% static 'lib/parallax/parallax.js' %}"></script>
+  <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+  <script src="{% static 'lib/nivo-slider/js/jquery.nivo.slider.js' %}" type="text/javascript"></script>
+  <script src="{% static 'lib/appear/jquery.appear.js' %}"></script>
+  <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'lib/bootstrap/js/bootstrap-hover-dropdown.min.js' %}"></script>
+  <script src="{% static 'lib/flexslider/jquery.flexslider-min.js"></script>
+
+  <script src="{% static 'js/main.js' %}"></script>
+  <script src="{% static 'js/retina-1.1.0.min.js' %}"></script>
+  <script src="{% static 'js/masonry.pkgd.min.js' %}"></script>
+  
+  <!-- JS Unify -->
+  <script src="{% static 'js/hs.core.js' %}"></script>
+  <script src="{% static 'js/components/hs.carousel.js' %}"></script>
+  <script src="{% static 'js/components/hs.header.js' %}"></script>
+  <script src="{% static 'js/helpers/hs.hamburgers.js' %}"></script>
+  <script src="{% static 'js/components/hs.tabs.js' %}"></script>
+  <script src="{% static 'js/components/hs.popup.js' %}"></script>
+  <script src="{% static 'js/components/hs.counter.js' %}"></script>
+  <script src="{% static 'js/components/hs.cubeportfolio.js' %}"></script>
+  <script src="{% static 'js/components/hs.go-to.js' %}"></script>
+
+</body>
+
+</html>
